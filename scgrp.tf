@@ -23,7 +23,7 @@ resource "aws_security_group" "jenkins_stack_sg" {
     to_port     = 80
     self        = true
     protocol    = "tcp"
-    cidr_blocks = [var.MYANYWHERE]
+    cidr_blocks = [var.LB]
   }
 
   ingress {

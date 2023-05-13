@@ -35,13 +35,13 @@ variable "PRIV_KEY" {
 }
 
 variable "MYIP" {
-  default = "193.159.40.236/32"
+  default = "0.0.0.0/0"
 }
 
 variable "ANYWHERE" {
   default = "0.0.0.0/0"
 }
 
-variable "MYANYWHERE" {
+variable "LB" {
   default = "0.0.0.0/0"
 }
